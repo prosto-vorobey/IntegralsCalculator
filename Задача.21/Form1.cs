@@ -21,7 +21,6 @@ namespace Задача._21
         {
             double a=0, b=0, c=0, d=0, x1=0, x2=0, n=0, symm_chet = 0, symm_nchet = 0, x, fx, R=0, R1, xr1=0, xr2 = 0;
             int i;
-            Console.WriteLine("Complete");
             //Выводим сообщение об ошибке, если не соблюдены условия
             if (coef_a.Text == "a" || coef_b.Text == "b" || coef_c.Text == "c" || coef_d.Text == "d" || bord_right.Text == "x1" || bord_left.Text == "x2" || num_part.Text == "n") MessageBox.Show("Введите корректные значения.");
             else if ((coef_a.Text == "0" && coef_b.Text == "0" && coef_c.Text == "0") || num_part.Text == "0") MessageBox.Show("Введите корректные значения.");
